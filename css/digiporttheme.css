@@ -1,0 +1,37 @@
+/* ==============================================================
+   DigiPort Theme — Global Design System
+   ==============================================================
+   This file defines the brand color palette, typography, and
+   default component behavior for all DigiPort / DragonEye projects.
+   ============================================================== */
+
+:root {
+  --color-red: #5c1a14;       /* Ember red */
+  --color-gold: #d4af37;      /* Warm metallic gold */
+  --color-dark: #0d1117;      /* Charcoal background */
+  --color-light: #fdf6e3;     /* Ivory text */
+  --color-muted: #e5c97d;     /* Soft pale gold */
+  --font-header: 'Cinzel', serif;
+  --font-body: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-gold);
+  font-family: var(--font-header);
+}
+
+.btn-primary {
+  background-color: var(--color-gold);
+  color: var(--color-dark);
+  border: 1px solid var(--color-gold);
+}
+
+.btn-primary:hover {
+  background-color: #e5c100;
+}
